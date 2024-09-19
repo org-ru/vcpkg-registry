@@ -1,0 +1,16 @@
+{
+  "name": "vmime",
+  "version": "0.9.2",
+  "description": "VMime Mail Library",
+  "dependencies": [
+    "fmt",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
