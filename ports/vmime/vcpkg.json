@@ -4,7 +4,6 @@
   "description": "VMime Mail Library",
   "dependencies": [
     "fmt",
-    "isu",
     "libiconv",
     "openssl",
     {
