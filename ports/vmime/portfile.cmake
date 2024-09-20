@@ -29,6 +29,4 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 
-message("lib/cmake/vmime")
-
-vcpkg_cmake_config_fixup(CONFIG_PATH "lib/cmake/vmime")
+vcpkg_cmake_config_fixup(PACKAGE_NAME "vmime")
