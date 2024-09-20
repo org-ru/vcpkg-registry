@@ -4,6 +4,9 @@
   "description": "VMime Mail Library",
   "dependencies": [
     "fmt",
+    "openssl",
+    "isu",
+    "libiconv",
     {
       "name": "vcpkg-cmake",
       "host": true
