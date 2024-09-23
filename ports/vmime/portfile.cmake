@@ -27,6 +27,8 @@ vcpkg_cmake_configure(
         -DVMIME_BUILD_SAMPLES=OFF
 )
 
+message("PORTFILE TEST MESSAGE!!!")
+
 vcpkg_cmake_config_fixup(
 	PACKAGE_NAME vmime
 )
