@@ -27,4 +27,9 @@ vcpkg_cmake_configure(
         -DVMIME_BUILD_SAMPLES=OFF
 )
 
+vcpkg_cmake_config_fixup(
+	PACKAGE_NAME vmime
+)
+
 vcpkg_cmake_install()
+
