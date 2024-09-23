@@ -29,3 +29,8 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 
+vcpkg_cmake_config_fixup(
+	PACKAGE_NAME vmime-static
+	CONFIG_PATH "share/vmime-static"
+)
+
