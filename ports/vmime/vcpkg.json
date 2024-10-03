@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "VMime Mail Library",
   "dependencies": [
-    "libiconv",
+    "icu",
     "openssl",
     {
       "name": "vcpkg-cmake",
